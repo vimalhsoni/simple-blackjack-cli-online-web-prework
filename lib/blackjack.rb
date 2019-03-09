@@ -19,3 +19,7 @@ def get_user_input
 input = gets.chomp
 return input
 end
+
+def end_game(number)
+  puts "Sorry, you hit #{number}. Thanks for playing!"
+end
